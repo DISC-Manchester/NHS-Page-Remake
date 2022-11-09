@@ -2,7 +2,7 @@ html {
 	background: #f0f4f5;
 }
 .App {
-	margin: 0 40% 0 2em
+	margin: 0 35% 0 2em
 }
 .review {
 	color: gray;
@@ -69,17 +69,70 @@ fieldset.critical > ul > li > a {
 fieldset > ul, fieldset > p {
 	font-size: 19px
 }
-/* 
-fieldset {
-margin: 0 40% 0 0
-} */
 
+fieldset {    
+	border-width: 1px;
+    border-style: solid;
+    border-color: rgb(192, 192, 192);
+    border-image: initial;
+}
+
+h1 {
+	font-size: 3rem;
+}
+h2 {
+	font-size: 2rem;
+}
+
+header {
+	background: #005eb8;
+	margin: 0 -55% 0 -2em;
+}
+header>div {
+	margin: 0 0 0 2em;
+	color: white;
+}
+header>nav {
+	margin: 0 0 0 2.5em;
+	color: white;
+	display: flex;
+}
+header>nav>a {
+	color: white;
+	margin: 0 1em 0 1em;
+}
+header>nav>a:hover {
+	text-decoration: none;
+	color: white;
+}
+header>hr {
+	border-color: rgb(51 126 198);
+	border-style: solid;
+	margin: 1em 2em 1em 2em;
+}
 fieldset.dodont.do > ul > li {
 	list-style-type: none;
-	list-style-image: url("data:image/svg+xml;base64,PHN2ZyBjbGFzcz0ibmhzdWstaWNvbiBuaHN1ay1pY29uX190aWNrIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgYXJpYS1oaWRkZW49InRydWUiIGhlaWdodD0iMzQiIHdpZHRoPSIzNCI+DQogICAgICAgIDxwYXRoIHN0cm9rZS13aWR0aD0iNCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBkPSJNMTguNCA3LjhsLTguNSA4LjRMNS42IDEyIiBzdHJva2U9IiMwMDdmM2IiPjwvcGF0aD4NCiAgICAgIDwvc3ZnPg==");
+	line-height: 1.8em;
 }
 fieldset.dodont.dont > ul > li {
-	line-height: 2em;
 	list-style-type: none;
-	list-style-image: url("data:image/svg+xml;base64,PHN2ZyBjbGFzcz0ibmhzdWstaWNvbiBuaHN1ay1pY29uX19jcm9zcyIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2aWV3Qm94PSIwIDAgMjQgMjQiIGFyaWEtaGlkZGVuPSJ0cnVlIiB3aWR0aD0iMzQiIGhlaWdodD0iMzQiPg0KICAgICAgICA8cGF0aCBkPSJNMTcgMTguNWMtLjQgMC0uOC0uMS0xLjEtLjRsLTEwLTEwYy0uNi0uNi0uNi0xLjYgMC0yLjEuNi0uNiAxLjUtLjYgMi4xIDBsMTAgMTBjLjYuNi42IDEuNSAwIDIuMS0uMy4zLS42LjQtMSAuNHoiIGZpbGw9IiNkNTI4MWIiPjwvcGF0aD4NCiAgICAgICAgPHBhdGggZD0iTTcgMTguNWMtLjQgMC0uOC0uMS0xLjEtLjQtLjYtLjYtLjYtMS41IDAtMi4xbDEwLTEwYy42LS42IDEuNS0uNiAyLjEgMCAuNi42LjYgMS41IDAgMi4xbC0xMCAxMGMtLjMuMy0uNi40LTEgLjR6IiBmaWxsPSIjZDUyODFiIj48L3BhdGg+DQogICAgICA8L3N2Zz4=");
+	line-height: 1.8em;
+}
+
+.right {
+	position: absolute;
+	text-align: right;
+	right: 3em
+}
+
+.nhsuk-icon {
+position: absolute;
+margin: 0 0 0 -2em;
+}
+
+.nhsuk-logo__background {
+fill: white
+}
+.nhsuk-logo__text {
+fill: #005eb8
 }
